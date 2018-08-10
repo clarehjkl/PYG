@@ -91,6 +91,17 @@
             </a>
         </div>
     </div>
+    <!-- 轮播图索引器 -->
+    <div class="mui-slider-indicator">
+        {{each arr value index}}
+            {{if index==0}}
+            <div class="mui-indicator mui-active"></div>
+            {{/if}}
+            {{if index!=0}}
+            <div class="mui-indicator"></div>
+            {{/if}}
+        {{/each}}
+    </div>
 </script>
 <!-- 菜单导航栏 -->
 <script type="text/template" id="navTpl">
