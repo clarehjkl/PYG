@@ -1,0 +1,162 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding: 45px 0 50px;
+}
+
+.pyg_header {
+  width: 100%;
+  height: 45px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.pyg_header .mui-input-row {
+  padding: 5px 10px;
+}
+
+.pyg_view {
+  height: 100%;
+  overflow: scroll;
+}
+
+.pyg_view .index_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pyg_view .index_nav a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.pyg_view .index_nav a img {
+  width: 80%;
+}
+
+.pyg_view .index_goodlist {
+  width: 100%;
+  padding: 10px;
+}
+
+.pyg_view .index_goodlist .goods_group .gg_title {
+  background-color: #fff;
+}
+
+.pyg_view .index_goodlist .goods_group .gg_title img {
+  width: 100%;
+}
+
+.pyg_view .index_goodlist .goods_group .gg_content {
+  width: 100%;
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pyg_view .index_goodlist .goods_group .gg_content li {
+  width: 49%;
+  background-color: #fff;
+  padding: 0 5px;
+}
+
+.pyg_view .index_goodlist .goods_group .gg_content li .item_des img {
+  width: 100%;
+}
+
+.pyg_view .index_goodlist .goods_group .gg_content li .item_des .goods_name {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+}
+
+.pyg_view .index_goodlist .goods_group .gg_content li .item_des .goods_price {
+  color: red;
+  font-size: 18px;
+}
+
+.pyg_view .index_goodlist .goods_group .gg_content li .item_like {
+  width: 100%;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pyg_view .index_goodlist .goods_group .gg_content li .item_like a {
+  width: 50%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pyg_footer {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pyg_footer a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.pyg_footer a span {
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+.pyg_footer a .fa {
+  font-size: 22px;
+}
+
+.pyg_footer a .link_name {
+  font-size: 12px;
+}
+/*# sourceMappingURL=index.css.map */
